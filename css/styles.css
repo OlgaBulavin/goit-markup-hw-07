@@ -1,11 +1,4 @@
-:root {
-    --primary-text-color: #757575;
-    --secondary-text-color: #212121;
-    --title-text-color: #ffffff;
-    --accent-color: #2196f3;
-    --secondary-button-color: #f5f4fa;
-    --background-color-main: #2f303a;
-  }
+
   
   html {
     box-sizing: border-box;
@@ -924,6 +917,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    text-decoration: none;
   }
   
   .adres {
