@@ -162,6 +162,10 @@ a:focus svg.social-list-icon {
   margin: 0;
 }
 
+.social-list-item:last-child {
+  margin: 0;
+}
+
 .hero__title {
   color: var(--title-text-color);
   font-size: 44px;
