@@ -16,11 +16,13 @@
   .subcribe-input {
     transform: border-color 250 ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #fff;
+
+    &:focus {
+      border-color: var(--title-text-color);
+      outline: none;
+    }
   }
-  .subcribe-input:focus {
-    border-color: var(--title-text-color);
-    outline: none;
-  }
+  
   
   .sub-text {
     font-family: 'Roboto';
@@ -60,6 +62,5 @@
    margin-left: 10px;
    padding: 0;
    vertical-align: middle;
-  
   }
   

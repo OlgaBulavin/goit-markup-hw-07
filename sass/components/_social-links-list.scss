@@ -7,6 +7,10 @@
     background-color: white;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+    background-color: #2196f3;
+}
   }
   
   .social-list-icon {
@@ -16,6 +20,10 @@
   .social-list-item {
     display: block;
     margin-right: 10px;
+
+    &:last-child {
+      margin: 0;
+    }
     
   }
   
@@ -23,17 +31,13 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  
-  a:hover svg.social-list-icon,
-  a:focus svg.social-list-icon {
+  a {
+  &:hover svg.social-list-icon,
+  &:focus svg.social-list-icon {
     fill: white;
   }
-  
-  .social-list-link:hover,
-  .social-list-link:focus {
-    background-color: #2196f3;
-}
-  
+  }
+
 .social-list {
     display: flex;
     justify-content: center;
@@ -41,6 +45,4 @@
     margin: 0;
   }
 
-  .social-list-item:last-child {
-    margin: 0;
-  }
+  

@@ -12,12 +12,14 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
+
+    &:hover svg.modal-close-icon,
+    &:focus svg.modal-close-icon {
+    fill: #2196f3;
+    }
   }
 
-  .modal-close-btn:hover svg.modal-close-icon,
-  .modal-close-btn:focus svg.modal-close-icon {
-  fill: #2196f3;
-  }
+  
 
   .modal-close-icon {
     width: 18px;

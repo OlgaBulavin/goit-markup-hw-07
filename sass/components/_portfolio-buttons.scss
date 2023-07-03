@@ -22,18 +22,15 @@
     border: none;
     border-radius: 4px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .button.secondary:hover,
-   .button.secondary:focus {
+
+    &:hover, &:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
      color: var(--title-text-color);
     background-color: var(--accent-color);
   }
-  
-  
+  }
   
   .button.secondary.blue {
     background-color: var(--accent-color);
@@ -43,11 +40,12 @@
     padding-left: 25px;
     padding-right: 25px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .button.secondary.blue:hover,
-   .button.secondary.blue:focus {
+
+    &:hover, &:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
   }
+  }
+  
+  
